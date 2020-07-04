@@ -8,3 +8,5 @@ The network architecture is simple, one convolution layer with 6 sets of 3 filte
 * The code isn't elegant at all and will probably be rewritten to be general and make it easier to stack layers without having to rewrite the glue. At the moment, it is just a set of functions.
 * It doesn't use any of the newer weight initialization techniques such as Glorot or He initialization.
 
+### Running the code
+You'll need the CIFAR-10 data split into 50000 and 10000 samples in files called train_data.mat and test_data.mat to run it. Simply run ```python train_cnn.py``` to train and test it.
